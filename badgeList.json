@@ -119,6 +119,12 @@
         "textColor": "FFFFFF",
         "image": "/icons/white/github.svg"
     },
+    "debian": {
+        "name": "Debian",
+        "bgColor": "d70a53",
+        "textColor": "FFFFFF",
+        "image": "/icons/white/debian.svg"
+    },
     "vscode": {
         "name": "Visual Studio Code",
         "bgColor": "3399FF",
