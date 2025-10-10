@@ -29,8 +29,7 @@ export async function handler(event, context) {
 
 	return {
 		statusCode: 200,
-		headers: { "Content-Type": "image/svg+xml" },
-
+		headers: { "Content-Type": "image/svg+xml", "Cache-Control": "public, max-age=3600" },
 		body: data,
 	};
 }

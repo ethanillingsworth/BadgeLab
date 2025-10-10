@@ -71,10 +71,7 @@ export async function handler(event, context) {
 
 	return {
 		statusCode: 200,
-		headers: {
-			"Content-Type": "image/svg+xml", // this tells the browser it's an image
-			"Cache-Control": "no-cache",
-		},
+		headers: { "Content-Type": "image/svg+xml", "Cache-Control": "public, max-age=3600" },
 		body: e,
 	};
 }
