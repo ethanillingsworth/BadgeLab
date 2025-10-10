@@ -137,6 +137,11 @@
         "bgColor": "FF7139",
         "textColor": "FFFFFF",
         "image": "/icons/white/firefox.svg"
-
+    },
+    "tailwindcss": {
+        "name": "TailwindCSS",
+        "bgColor": "38BDF8",
+        "textColor": "FFFFFF",
+        "image": "/icons/white/tailwind.svg"
     }
 }
