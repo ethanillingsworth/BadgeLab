@@ -1,0 +1,16 @@
+[build]
+# Directory where your built site files go (adjust if needed)
+publish = "."
+
+# Directory where your Netlify Functions live
+functions = "netlify/functions"
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
+
+[[redirects]]
+from = "/api/badge/*"
+to = "/.netlify/functions/badge"
+status = 200
