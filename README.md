@@ -58,6 +58,8 @@ Params:
 | ![Debian](https://badgelab.dev/api/badge/debian) | https://badgelab.dev/api/badge/debian |
 | ![Visual Studio Code](https://badgelab.dev/api/badge/vscode) | https://badgelab.dev/api/badge/vscode |
 | ![Firefox](https://badgelab.dev/api/badge/firefox) | https://badgelab.dev/api/badge/firefox |
+| ![TailwindCSS](https://badgelab.dev/api/badge/tailwindcss) | https://badgelab.dev/api/badge/tailwindcss |
+
 
 
 
