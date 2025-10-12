@@ -1,12 +1,9 @@
-import fs from "fs";
-import path from "path";
-
 export async function handler(event, context) {
 	const params = new URLSearchParams(event.rawQuery || "");
 	const name = params.get("name");
 	const textColor = params.get("textColor") || "white";
 	const bgColor = params.get("bgColor");
-	const scale = 16;
+	const scale = 12;
 	const image = params.get("image") || "null";
 	const noLogo = params.get("noLogo") || false;
 
@@ -19,10 +16,10 @@ export async function handler(event, context) {
 
 	let e = `<svg width="${
 		name.length * scale * 0.6 + 20
-	}" height="40" xmlns="http://www.w3.org/2000/svg">
+	}" height="30" xmlns="http://www.w3.org/2000/svg">
 		${styles}
-		<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="40" />
-		<text x="10" y="22" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
+		<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="30" />
+		<text x="10" y="16" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
 			${name}
 		</text>
 	</svg>`;
@@ -49,21 +46,21 @@ export async function handler(event, context) {
 
 		// Normalize scaling based on viewBox
 		const [minX, minY, vbWidth, vbHeight] = viewBox;
-		const targetSize = 20; // desired size for all icons
+		const targetSize = 15; // desired size for all icons
 		const scaleFactor = targetSize / Math.max(vbWidth, vbHeight);
 		const offsetX = -minX * scaleFactor;
 		const offsetY = -minY * scaleFactor;
 
 		// Build the final badge SVG
 		e = `<svg width="${
-			name.length * scale * 0.6 + 55
-		}" height="40" xmlns="http://www.w3.org/2000/svg">
+			name.length * scale * 0.6 + 40
+		}" height="30" xmlns="http://www.w3.org/2000/svg">
 			${styles}
-			<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="40" />
-			<g transform="translate(12.5,10) scale(${scaleFactor}) translate(${offsetX},${offsetY})">
+			<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="30" />
+			<g transform="translate(10,7.5) scale(${scaleFactor}) translate(${offsetX},${offsetY})">
 				${innerSvg}
 			</g>
-			<text x="40" y="22" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
+			<text x="30" y="16" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
 				${name}
 			</text>
 		</svg>`;
@@ -71,7 +68,10 @@ export async function handler(event, context) {
 
 	return {
 		statusCode: 200,
-		headers: { "Content-Type": "image/svg+xml", "Cache-Control": "public, max-age=3600" },
+		headers: {
+			"Content-Type": "image/svg+xml",
+			"Cache-Control": "public, max-age=3600",
+		},
 		body: e,
 	};
 }
