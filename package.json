@@ -2,10 +2,11 @@
   "name": "badgelab",
   "version": "1.0.0",
   "description": "A collection of API endpoints to simplify GitHub README badges. ",
-  "main": "index.js",
-  "type":"module",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack .",
+    "serve": "webpack serve ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,20 @@
   "bugs": {
     "url": "https://github.com/ethanillingsworth/BadgeLab/issues"
   },
-  "homepage": "https://github.com/ethanillingsworth/BadgeLab#readme"
+  "homepage": "https://github.com/ethanillingsworth/BadgeLab#readme",
+  "dependencies": {
+    "marked": "^16.4.0",
+    "tailwindcss": "^4.1.14",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.4",
+    "mini-css-extract-plugin": "^2.9.4",
+    "postcss-loader": "^8.2.0"
+  }
 }
