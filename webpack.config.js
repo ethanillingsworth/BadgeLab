@@ -68,6 +68,10 @@ export default {
 					from: "README.md",
 					to: "",
 				},
+				{
+					from: "badgelist.json",
+					to: "",
+				},
 			],
 		}),
 		new HtmlWebpackPlugin({
