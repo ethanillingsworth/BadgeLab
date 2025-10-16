@@ -69,7 +69,7 @@ export default {
 					to: "",
 				},
 				{
-					from: "badgelist.json",
+					from: "src/badgelist.json",
 					to: "",
 				},
 			],
