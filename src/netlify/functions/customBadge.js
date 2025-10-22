@@ -14,9 +14,8 @@ export async function handler(event, context) {
 		}
 	</style>`;
 
-	let e = `<svg width="${
-		name.length * scale * 0.6 + 20
-	}" height="30" xmlns="http://www.w3.org/2000/svg">
+	let e = `<svg width="${name.length * scale * 0.6 + 20
+		}" height="30" xmlns="http://www.w3.org/2000/svg">
 		${styles}
 		<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="30" />
 		<text x="10" y="16" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
@@ -27,7 +26,7 @@ export async function handler(event, context) {
 	if (
 		!image.endsWith("undefined") &&
 		!image.endsWith("null") &&
-		noLogo == "false"
+		(noLogo == "false" || !noLogo)
 	) {
 		const response = await fetch(`${image}`);
 		const svgData = await response.text();
@@ -52,9 +51,8 @@ export async function handler(event, context) {
 		const offsetY = -minY * scaleFactor;
 
 		// Build the final badge SVG
-		e = `<svg width="${
-			name.length * scale * 0.6 + 40
-		}" height="30" xmlns="http://www.w3.org/2000/svg">
+		e = `<svg width="${name.length * scale * 0.6 + 40
+			}" height="30" xmlns="http://www.w3.org/2000/svg">
 			${styles}
 			<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="30" />
 			<g transform="translate(10,7.5) scale(${scaleFactor}) translate(${offsetX},${offsetY})">
