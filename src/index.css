@@ -29,6 +29,7 @@
 	h3 {
 		@apply text-2xl;
 	}
+
 	h4 {
 		@apply text-xl;
 	}
@@ -47,7 +48,7 @@
 	}
 
 	tr {
-		@apply bg-zinc-800 even:bg-zinc-700;
+		@apply bg-zinc-900 even:bg-zinc-800;
 	}
 
 	a {
