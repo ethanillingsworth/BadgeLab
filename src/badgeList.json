@@ -1,147 +1,151 @@
 {
-    "html5": {
-        "name": "HTML5",
-        "bgColor": "E34C26",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/html.svg"
+    "langs": {
+        "html5": {
+            "name": "HTML5",
+            "bgColor": "E34C26",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/html.svg"
+        },
+        "css3": {
+            "name": "CSS3",
+            "bgColor": "2162AF",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/css.svg"
+        },
+        "javascript": {
+            "name": "JavaScript",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/javascript.svg"
+        },
+        "python": {
+            "name": "Python",
+            "bgColor": "3773A5",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/python.svg"
+        },
+        "swift": {
+            "name": "Swift",
+            "bgColor": "F15833",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/swift.svg"
+        },
+        "java": {
+            "name": "Java",
+            "bgColor": "F8981D",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/java.svg"
+        },
+        "markdown": {
+            "name": "Markdown",
+            "bgColor": "000000",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/markdown.svg"
+        },
+        "json": {
+            "name": "JSON",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/json.svg"
+        }
     },
-    "css3": {
-        "name": "CSS3",
-        "bgColor": "2162AF",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/css.svg"
+    "frameworks": {
+        "react": {
+            "name": "React",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/react.svg"
+        },
+        "jquery": {
+            "name": "jQuery",
+            "bgColor": "1C7FCC",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/jquery.svg"
+        },
+        "tailwindcss": {
+            "name": "TailwindCSS",
+            "bgColor": "38BDF8",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/tailwind.svg"
+        }
     },
-    "javascript": {
-        "name": "JavaScript",
-        "bgColor": "404040",
-        "textColor": "FFFFFF",
-        "image": "/icons/color/javascript.svg"
+    "learning": {
+        "w3schools": {
+            "name": "W3Schools",
+            "bgColor": "4CAF50",
+            "textColor": "FFFFFF"
+        },
+        "khan-academy": {
+            "name": "Khan Academy",
+            "bgColor": "14BF96",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/khan.svg"
+        },
+        "codecademy": {
+            "name": "CodeCademy",
+            "bgColor": "FFFFFF",
+            "textColor": "000000",
+            "image": "/icons/black/codecademy.svg"
+        },
+        "mdn": {
+            "name": "MDN Web Docs",
+            "bgColor": "000000",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/mdn.svg"
+        },
+        "geeksforgeeks": {
+            "name": "GeeksForGeeks",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/geeksforgeeks.svg"
+        }
     },
-    "python": {
-        "name": "Python",
-        "bgColor": "3773A5",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/python.svg"
+    "hosting": {
+        "firebase": {
+            "name": "Firebase",
+            "bgColor": "FFC400",
+            "textColor": "000000",
+            "image": "/icons/white/firebase.svg"
+        },
+        "netlify": {
+            "name": "Netlify",
+            "bgColor": "000000",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/netlify.svg"
+        },
+        "github-pages": {
+            "name": "Github Pages",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/github.svg"
+        }
     },
-    "swift": {
-        "name": "Swift",
-        "bgColor": "F15833",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/swift.svg"
+    "tools": {
+        "github": {
+            "name": "Github",
+            "bgColor": "000000",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/github.svg"
+        },
+        "vscode": {
+            "name": "Visual Studio Code",
+            "bgColor": "3399FF",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/vscode.svg"
+        },
+        "firefox": {
+            "name": "Firefox",
+            "bgColor": "FF7139",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/firefox.svg"
+        }
     },
-    "java": {
-        "name": "Java",
-        "bgColor": "F8981D",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/java.svg"
-    },
-    "markdown": {
-        "name": "Markdown",
-        "bgColor": "000000",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/markdown.svg"
-    },
-    "w3schools": {
-        "name": "W3Schools",
-        "bgColor": "4CAF50",
-        "textColor": "FFFFFF"
-    },
-    "khan-academy": {
-        "name": "Khan Academy",
-        "bgColor": "14BF96",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/khan.svg"
-    },
-    "codecademy": {
-        "name": "CodeCademy",
-        "bgColor": "FFFFFF",
-        "textColor": "000000",
-        "image": "/icons/black/codecademy.svg"
-    },
-    "mdn": {
-        "name": "MDN Web Docs",
-        "bgColor": "000000",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/mdn.svg"
-
-    },
-    "geeksforgeeks": {
-        "name": "GeeksForGeeks",
-        "bgColor": "404040",
-        "textColor": "FFFFFF",
-        "image": "/icons/color/geeksforgeeks.svg"
-
-    },
-    "firebase": {
-        "name": "Firebase",
-        "bgColor": "FFC400",
-        "textColor": "000000",
-        "image": "/icons/white/firebase.svg"
-
-    },
-    "json": {
-        "name": "JSON",
-        "bgColor": "404040",
-        "textColor": "FFFFFF",
-        "image": "/icons/color/json.svg"
-
-    },
-    "react": {
-        "name": "React",
-        "bgColor": "404040",
-        "textColor": "FFFFFF",
-        "image": "/icons/color/react.svg"
-
-    },
-    "jquery": {
-        "name": "jQuery",
-        "bgColor": "1C7FCC",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/jquery.svg"
-
-    },
-    "netlify": {
-        "name": "Netlify",
-        "bgColor": "000000",
-        "textColor": "FFFFFF",
-        "image": "/icons/color/netlify.svg"
-
-    },
-    "github": {
-        "name": "Github",
-        "bgColor": "000000",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/github.svg"
-    },
-    "github-pages": {
-        "name": "Github Pages",
-        "bgColor": "404040",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/github.svg"
-    },
-    "debian": {
-        "name": "Debian",
-        "bgColor": "d70a53",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/debian.svg"
-    },
-    "vscode": {
-        "name": "Visual Studio Code",
-        "bgColor": "3399FF",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/vscode.svg"
-
-    },
-    "firefox": {
-        "name": "Firefox",
-        "bgColor": "FF7139",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/firefox.svg"
-    },
-    "tailwindcss": {
-        "name": "TailwindCSS",
-        "bgColor": "38BDF8",
-        "textColor": "FFFFFF",
-        "image": "/icons/white/tailwind.svg"
+    "systems": {
+        "debian": {
+            "name": "Debian",
+            "bgColor": "d70a53",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/debian.svg"
+        }
     }
 }

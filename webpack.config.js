@@ -53,10 +53,6 @@ export default {
 		new CopyWebpackPlugin({
 			patterns: [
 				{
-					from: "src/netlify.toml", // where you put the _redirects file
-					to: "", // output it at the root of /public
-				},
-				{
 					from: "src/netlify/",
 					to: "netlify",
 				},

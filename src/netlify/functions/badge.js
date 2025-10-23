@@ -2,14 +2,23 @@ export async function handler(event, context) {
 	const path = event.path; // e.g. "/function/hello"
 	const params = new URLSearchParams(event.rawQuery || "");
 
-	const name = path.split("/").pop();
+	let name = path.split("/")[3];
 	const noLogo = params.get("noLogo") || false;
+
 
 	const badgeLookup = await (
 		await fetch(`${process.env.URL}/badgeList.json`)
 	).json();
 
-	const badgeData = badgeLookup[name] || null;
+	let badgeData;
+	for (const cate of Object.keys(badgeLookup)) {
+
+		badgeData = badgeLookup[cate][name] || null
+		if (badgeData != null) {
+			break
+		}
+	}
+
 
 	if (badgeData == null) {
 		return {

@@ -1,3 +1,14 @@
+[build]
+command = "npm run build"
+publish = "/public"
+functions = "src/netlify/functions"
+
+
+[dev]
+port = 8888
+functionsPort = 8888
+framework = "#static"
+
 [[redirects]]
 from = "/api/*"
 to = "/.netlify/functions/:splat"
