@@ -184,6 +184,18 @@
             "bgColor": "d70a53",
             "textColor": "FFFFFF",
             "image": "/icons/white/debian.svg"
+        },
+        "ubuntu": {
+            "name": "Ubuntu",
+            "bgColor": "E95420",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/ubuntu.svg"
+        },
+        "windows": {
+            "name": "Windows",
+            "bgColor": "0078D6",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/windows.svg"
         }
     }
 }

@@ -99,6 +99,9 @@ Badges are defined within each section below and can be accessed with the [badge
 
 
 ### Systems
-| ID     | Rendered                                         | Route                                   |
-| ------ | ------------------------------------------------ | --------------------------------------- |
-| debian | ![Debian](https://badgelab.dev/api/badge/debian) | <https://badgelab.dev/api/badge/debian> |
+| ID      | Rendered                                           | Route                                    |
+| ------- | -------------------------------------------------- | ---------------------------------------- |
+| debian  | ![Debian](https://badgelab.dev/api/badge/debian)   | <https://badgelab.dev/api/badge/debian>  |
+| ubuntu  | ![Ubuntu](https://badgelab.dev/api/badge/ubuntu)   | <https://badgelab.dev/api/badge/ubuntu>  |
+| windows | ![Windows](https://badgelab.dev/api/badge/windows) | <https://badgelab.dev/api/badge/windows> |
+
