@@ -132,7 +132,9 @@
             "bgColor": "3399FF",
             "textColor": "FFFFFF",
             "image": "/icons/white/vscode.svg"
-        },
+        }
+    },
+    "browsers": {
         "firefox": {
             "name": "Firefox",
             "bgColor": "FF7139",
