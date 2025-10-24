@@ -24,6 +24,12 @@
             "textColor": "FFFFFF",
             "image": "/icons/white/python.svg"
         },
+        "python-alt": {
+            "name": "Python",
+            "bgColor": "FDD444",
+            "textColor": "000000",
+            "image": "/icons/black/python.svg"
+        },
         "swift": {
             "name": "Swift",
             "bgColor": "F15833",
