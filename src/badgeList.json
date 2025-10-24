@@ -14,6 +14,18 @@
         },
         "javascript": {
             "name": "JavaScript",
+            "bgColor": "EFD81D",
+            "textColor": "000000",
+            "image": "/icons/black/javascript.svg"
+        },
+        "javascript-alt": {
+            "name": "JavaScript",
+            "bgColor": "D4AF37",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/javascript.svg"
+        },
+        "javascript-color": {
+            "name": "JavaScript",
             "bgColor": "404040",
             "textColor": "FFFFFF",
             "image": "/icons/color/javascript.svg"
