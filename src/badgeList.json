@@ -140,6 +140,42 @@
             "bgColor": "FF7139",
             "textColor": "FFFFFF",
             "image": "/icons/white/firefox.svg"
+        },
+        "chrome": {
+            "name": "Chrome",
+            "bgColor": "4285F4",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/chrome.svg"
+        },
+        "safari": {
+            "name": "Safari",
+            "bgColor": "0FB5EE",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/safari.svg"
+        },
+        "edge": {
+            "name": "Edge",
+            "bgColor": "0078D7",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/edge.svg"
+        },
+        "opera": {
+            "name": "Opera",
+            "bgColor": "FF1B2D",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/opera.svg"
+        },
+        "brave": {
+            "name": "Brave",
+            "bgColor": "FB542B",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/brave.svg"
+        },
+        "tor": {
+            "name": "Tor Browser",
+            "bgColor": "7D4698",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/tor.svg"
         }
     },
     "systems": {

@@ -90,6 +90,13 @@ Badges are defined within each section below and can be accessed with the [badge
 | ID      | Rendered                                           | Route                                    |
 | ------- | -------------------------------------------------- | ---------------------------------------- |
 | firefox | ![Firefox](https://badgelab.dev/api/badge/firefox) | <https://badgelab.dev/api/badge/firefox> |
+| chrome  | ![Chrome](https://badgelab.dev/api/badge/chrome)   | <https://badgelab.dev/api/badge/chrome>  |
+| safari  | ![Safari](https://badgelab.dev/api/badge/safari)   | <https://badgelab.dev/api/badge/safari>  |
+| edge    | ![Edge](https://badgelab.dev/api/badge/edge)       | <https://badgelab.dev/api/badge/edge>    |
+| opera   | ![Opera](https://badgelab.dev/api/badge/opera)     | <https://badgelab.dev/api/badge/opera>   |
+| brave   | ![Brave](https://badgelab.dev/api/badge/brave)     | <https://badgelab.dev/api/badge/brave>   |
+| tor     | ![Tor](https://badgelab.dev/api/badge/tor)         | <https://badgelab.dev/api/badge/tor>     |
+
 
 ### Systems
 | ID     | Rendered                                         | Route                                   |
