@@ -2,11 +2,23 @@
     "langs": {
         "html5": {
             "name": "HTML5",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/html.svg"
+        },
+        "html5-white": {
+            "name": "HTML5",
             "bgColor": "E34C26",
             "textColor": "FFFFFF",
             "image": "/icons/white/html.svg"
         },
         "css3": {
+            "name": "CSS3",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/css.svg"
+        },
+        "css3-white": {
             "name": "CSS3",
             "bgColor": "2162AF",
             "textColor": "FFFFFF",
@@ -14,47 +26,59 @@
         },
         "javascript": {
             "name": "JavaScript",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/javascript.svg"
+        },
+        "javascript-black": {
+            "name": "JavaScript",
             "bgColor": "EFD81D",
             "textColor": "000000",
             "image": "/icons/black/javascript.svg"
         },
-        "javascript-alt": {
+        "javascript-white": {
             "name": "JavaScript",
             "bgColor": "D4AF37",
             "textColor": "FFFFFF",
             "image": "/icons/white/javascript.svg"
         },
-        "javascript-color": {
-            "name": "JavaScript",
-            "bgColor": "404040",
-            "textColor": "FFFFFF",
-            "image": "/icons/color/javascript.svg"
-        },
         "python": {
-            "name": "Python",
-            "bgColor": "3773A5",
-            "textColor": "FFFFFF",
-            "image": "/icons/white/python.svg"
-        },
-        "python-alt": {
-            "name": "Python",
-            "bgColor": "FDD444",
-            "textColor": "000000",
-            "image": "/icons/black/python.svg"
-        },
-        "python-color": {
             "name": "Python",
             "bgColor": "404040",
             "textColor": "FFFFFF",
             "image": "/icons/color/python.svg"
         },
+        "python-white": {
+            "name": "Python",
+            "bgColor": "3773A5",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/python.svg"
+        },
+        "python-black": {
+            "name": "Python",
+            "bgColor": "FDD444",
+            "textColor": "000000",
+            "image": "/icons/black/python.svg"
+        },
         "swift": {
+            "name": "Swift",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/swift.svg"
+        },
+        "swift-white": {
             "name": "Swift",
             "bgColor": "F15833",
             "textColor": "FFFFFF",
             "image": "/icons/white/swift.svg"
         },
         "java": {
+            "name": "Java",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/java.svg"
+        },
+        "java-white": {
             "name": "Java",
             "bgColor": "F8981D",
             "textColor": "FFFFFF",
@@ -82,11 +106,23 @@
         },
         "jquery": {
             "name": "jQuery",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/jquery.svg"
+        },
+        "jquery-white": {
+            "name": "jQuery",
             "bgColor": "1C7FCC",
             "textColor": "FFFFFF",
             "image": "/icons/white/jquery.svg"
         },
         "tailwindcss": {
+            "name": "TailwindCSS",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/tailwind.svg"
+        },
+        "tailwindcss-white": {
             "name": "TailwindCSS",
             "bgColor": "38BDF8",
             "textColor": "FFFFFF",
@@ -96,10 +132,21 @@
     "learning": {
         "w3schools": {
             "name": "W3Schools",
+            "bgColor": "404040",
+            "textColor": "FFFFFF"
+        },
+        "w3schools-white": {
+            "name": "W3Schools",
             "bgColor": "4CAF50",
             "textColor": "FFFFFF"
         },
         "khan-academy": {
+            "name": "W3Schools",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/khan.svg"
+        },
+        "khan-academy-white": {
             "name": "Khan Academy",
             "bgColor": "14BF96",
             "textColor": "FFFFFF",
@@ -127,6 +174,12 @@
     "hosting": {
         "firebase": {
             "name": "Firebase",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/firebase.svg"
+        },
+        "firebase-black": {
+            "name": "Firebase",
             "bgColor": "FFC400",
             "textColor": "000000",
             "image": "/icons/white/firebase.svg"
@@ -153,6 +206,12 @@
         },
         "vscode": {
             "name": "Visual Studio Code",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/vscode.svg"
+        },
+        "vscode-white": {
+            "name": "Visual Studio Code",
             "bgColor": "3399FF",
             "textColor": "FFFFFF",
             "image": "/icons/white/vscode.svg"
@@ -161,11 +220,23 @@
     "browsers": {
         "firefox": {
             "name": "Firefox",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/firefox.svg"
+        },
+        "firefox-white": {
+            "name": "Firefox",
             "bgColor": "FF7139",
             "textColor": "FFFFFF",
             "image": "/icons/white/firefox.svg"
         },
         "chrome": {
+            "name": "Chrome",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/chrome.svg"
+        },
+        "chrome-white": {
             "name": "Chrome",
             "bgColor": "4285F4",
             "textColor": "FFFFFF",
@@ -173,11 +244,23 @@
         },
         "safari": {
             "name": "Safari",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/safari.svg"
+        },
+        "safari-white": {
+            "name": "Safari",
             "bgColor": "0FB5EE",
             "textColor": "FFFFFF",
             "image": "/icons/white/safari.svg"
         },
         "edge": {
+            "name": "Edge",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/edge.svg"
+        },
+        "edge-white": {
             "name": "Edge",
             "bgColor": "0078D7",
             "textColor": "FFFFFF",
@@ -185,17 +268,35 @@
         },
         "opera": {
             "name": "Opera",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/opera.svg"
+        },
+        "opera-white": {
+            "name": "Opera",
             "bgColor": "FF1B2D",
             "textColor": "FFFFFF",
             "image": "/icons/white/opera.svg"
         },
         "brave": {
             "name": "Brave",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/brave.svg"
+        },
+        "brave-white": {
+            "name": "Brave",
             "bgColor": "FB542B",
             "textColor": "FFFFFF",
             "image": "/icons/white/brave.svg"
         },
         "tor": {
+            "name": "Tor Browser",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/tor.svg"
+        },
+        "tor-white": {
             "name": "Tor Browser",
             "bgColor": "7D4698",
             "textColor": "FFFFFF",
@@ -205,17 +306,35 @@
     "systems": {
         "debian": {
             "name": "Debian",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/debian.svg"
+        },
+        "debian-white": {
+            "name": "Debian",
             "bgColor": "d70a53",
             "textColor": "FFFFFF",
             "image": "/icons/white/debian.svg"
         },
         "ubuntu": {
             "name": "Ubuntu",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/ubuntu.svg"
+        },
+        "ubuntu-white": {
+            "name": "Ubuntu",
             "bgColor": "E95420",
             "textColor": "FFFFFF",
             "image": "/icons/white/ubuntu.svg"
         },
         "windows": {
+            "name": "Windows",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/windows.svg"
+        },
+        "windows-white": {
             "name": "Windows",
             "bgColor": "0078D6",
             "textColor": "FFFFFF",
