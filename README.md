@@ -46,7 +46,9 @@ Badges are defined within each section below and can be accessed with the [badge
 | ID               | Rendered                                                       | Route                                             |
 | ---------------- | -------------------------------------------------------------- | ------------------------------------------------- |
 | html5            | ![HTML5](https://badgelab.dev/api/badge/html5)                 | <https://badgelab.dev/api/badge/html5>            |
+| html5-white      | ![HTML5](https://badgelab.dev/api/badge/html5-white)           | <https://badgelab.dev/api/badge/html5-white>      |
 | css3             | ![CSS3](https://badgelab.dev/api/badge/css3)                   | <https://badgelab.dev/api/badge/css3>             |
+| css3-white       | ![CSS3](https://badgelab.dev/api/badge/css3-white)             | <https://badgelab.dev/api/badge/css3-white>       |
 | javascript       | ![JavaScript](https://badgelab.dev/api/badge/javascript)       | <https://badgelab.dev/api/badge/javascript>       |
 | javascript-white | ![JavaScript](https://badgelab.dev/api/badge/javascript-white) | <https://badgelab.dev/api/badge/javascript-white> |
 | javascript-black | ![JavaScript](https://badgelab.dev/api/badge/javascript-black) | <https://badgelab.dev/api/badge/javascript-black> |
