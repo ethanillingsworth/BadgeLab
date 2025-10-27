@@ -42,6 +42,12 @@
             "textColor": "000000",
             "image": "/icons/black/python.svg"
         },
+        "python-color": {
+            "name": "Python",
+            "bgColor": "404040",
+            "textColor": "FFFFFF",
+            "image": "/icons/color/python.svg"
+        },
         "swift": {
             "name": "Swift",
             "bgColor": "F15833",
