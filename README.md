@@ -52,7 +52,7 @@ Badges are defined within each section below and can be accessed with the [badge
 | javascript-color | ![JavaScript](https://badgelab.dev/api/badge/javascript-color) | <https://badgelab.dev/api/badge/javascript-color> |
 | python           | ![Python](https://badgelab.dev/api/badge/python)               | <https://badgelab.dev/api/badge/python>           |
 | python-alt       | ![Python](https://badgelab.dev/api/badge/python-alt)           | <https://badgelab.dev/api/badge/python-alt>       |
-| python-alt       | ![Python](https://badgelab.dev/api/badge/python-color)           | <https://badgelab.dev/api/badge/python-color>       |
+| python-color       | ![Python](https://badgelab.dev/api/badge/python-color)           | <https://badgelab.dev/api/badge/python-color>       |
 | swift            | ![Swift](https://badgelab.dev/api/badge/swift)                 | <https://badgelab.dev/api/badge/swift>            |
 | java             | ![Java](https://badgelab.dev/api/badge/java)                   | <https://badgelab.dev/api/badge/java>             |
 | markdown         | ![Markdown](https://badgelab.dev/api/badge/markdown)           | <https://badgelab.dev/api/badge/markdown>         |
