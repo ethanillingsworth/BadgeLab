@@ -87,7 +87,7 @@ Badges are defined within each section below and can be accessed with the [badge
 | ID             | Rendered                                                     | Route                                           |
 | -------------- | ------------------------------------------------------------ | ----------------------------------------------- |
 | firebase       | ![Firebase](https://badgelab.dev/api/badge/firebase)         | <https://badgelab.dev/api/badge/firebase>       |
-| firebase-white | ![Firebase](https://badgelab.dev/api/badge/firebase-white)   | <https://badgelab.dev/api/badge/firebase-white> |
+| firebase-black | ![Firebase](https://badgelab.dev/api/badge/firebase-black)   | <https://badgelab.dev/api/badge/firebase-black> |
 | netlify        | ![Netlify](https://badgelab.dev/api/badge/netlify)           | <https://badgelab.dev/api/badge/netlify>        |
 | github-pages   | ![Github Pages](https://badgelab.dev/api/badge/github-pages) | <https://badgelab.dev/api/badge/github-pages>   |
 
