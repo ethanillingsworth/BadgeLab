@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "webpack .",
-    "serve": "webpack serve ."
+    "serve": "BROWSER=none netlify serve"
   },
   "repository": {
     "type": "git",
