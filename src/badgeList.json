@@ -96,11 +96,11 @@
             "textColor": "FFFFFF",
             "image": "/icons/color/json.svg"
         },
-        "ardiuno-white": {
-            "name": "Ardiuno",
+        "arduino-white": {
+            "name": "Arduino",
             "bgColor": "00979D",
             "textColor": "FFFFFF",
-            "image": "/icons/white/ardiuno.svg"
+            "image": "/icons/white/arduino.svg"
         },
         "c-white": {
             "name": "C",

@@ -61,7 +61,7 @@ Badges are defined within each section below and can be accessed with the [badge
 | java-white       | ![Java](https://badgelab.dev/api/badge/java-white)             | <https://badgelab.dev/api/badge/java-white>       |
 | markdown         | ![Markdown](https://badgelab.dev/api/badge/markdown)           | <https://badgelab.dev/api/badge/markdown>         |
 | json             | ![JSON](https://badgelab.dev/api/badge/json)                   | <https://badgelab.dev/api/badge/json>             |
-| ardiuno-white             | ![Ardiuno](https://badgelab.dev/api/badge/ardiuno-white)                   | <https://badgelab.dev/api/badge/ardiuno-white>             |
+| arduino-white             | ![Arduino](https://badgelab.dev/api/badge/arduino-white)                   | <https://badgelab.dev/api/badge/arduino-white>             |
 | c-white             | ![C](https://badgelab.dev/api/badge/c-white)                   | <https://badgelab.dev/api/badge/c-white>             |
 | cpp-white             | ![C++](https://badgelab.dev/api/badge/cpp-white)                   | <https://badgelab.dev/api/badge/cpp-white>             |
 
