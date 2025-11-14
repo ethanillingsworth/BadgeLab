@@ -95,6 +95,24 @@
             "bgColor": "404040",
             "textColor": "FFFFFF",
             "image": "/icons/color/json.svg"
+        },
+        "ardiuno-white": {
+            "name": "Ardiuno",
+            "bgColor": "00979D",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/ardiuno.svg"
+        },
+        "c-white": {
+            "name": "C",
+            "bgColor": "00599C",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/c.svg"
+        },
+        "cpp-white": {
+            "name": "C%2B%2B",
+            "bgColor": "00599C",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/cpp.svg"
         }
     },
     "frameworks": {
@@ -169,6 +187,48 @@
             "bgColor": "404040",
             "textColor": "FFFFFF",
             "image": "/icons/color/geeksforgeeks.svg"
+        }
+    },
+    "socials": {
+        "facebook-white": {
+            "name": "Facebook",
+            "bgColor": "1877F2",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/facebook.svg"
+        },
+        "linkedin-white": {
+            "name": "Linkedin",
+            "bgColor": "0072B1",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/linkedin.svg"
+        },
+        "instagram-white": {
+            "name": "Instagram",
+            "bgColor": "C13584",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/instagram.svg"
+        },
+        "youtube-white": {
+            "name": "Youtube",
+            "bgColor": "FF0000",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/youtube.svg"
+        },
+        "website-white": {
+            "name": "My Website",
+            "bgColor": "398DDB",
+            "textColor": "FFFFFF"
+        },
+        "email-white": {
+            "name": "Email Me",
+            "bgColor": "398DDB",
+            "textColor": "FFFFFF"
+        },
+        "behance-white": {
+            "name": "Behance",
+            "bgColor": "053EFF",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/behance.svg"
         }
     },
     "hosting": {

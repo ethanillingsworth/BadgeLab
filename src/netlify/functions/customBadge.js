@@ -58,7 +58,7 @@ export async function handler(event, context) {
 			<g transform="translate(10,7.5) scale(${scaleFactor}) translate(${offsetX},${offsetY})">
 				${innerSvg}
 			</g>
-			<text x="30" y="16.5" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
+			<text x="30" y="15" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
 				${name}
 			</text>
 		</svg>`;

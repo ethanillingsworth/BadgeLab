@@ -61,8 +61,12 @@ Badges are defined within each section below and can be accessed with the [badge
 | java-white       | ![Java](https://badgelab.dev/api/badge/java-white)             | <https://badgelab.dev/api/badge/java-white>       |
 | markdown         | ![Markdown](https://badgelab.dev/api/badge/markdown)           | <https://badgelab.dev/api/badge/markdown>         |
 | json             | ![JSON](https://badgelab.dev/api/badge/json)                   | <https://badgelab.dev/api/badge/json>             |
+| ardiuno-white             | ![Ardiuno](https://badgelab.dev/api/badge/ardiuno-white)                   | <https://badgelab.dev/api/badge/ardiuno-white>             |
+| c-white             | ![C](https://badgelab.dev/api/badge/c-white)                   | <https://badgelab.dev/api/badge/c-white>             |
+| cpp-white             | ![C++](https://badgelab.dev/api/badge/cpp-white)                   | <https://badgelab.dev/api/badge/cpp-white>             |
 
 ### Frameworks
+
 | ID                | Rendered                                                         | Route                                              |
 | ----------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
 | react             | ![React](https://badgelab.dev/api/badge/react)                   | <https://badgelab.dev/api/badge/react>             |
@@ -71,6 +75,17 @@ Badges are defined within each section below and can be accessed with the [badge
 | tailwindcss       | ![TailwindCSS](https://badgelab.dev/api/badge/tailwindcss)       | <https://badgelab.dev/api/badge/tailwindcss>       |
 | tailwindcss-white | ![TailwindCSS](https://badgelab.dev/api/badge/tailwindcss-white) | <https://badgelab.dev/api/badge/tailwindcss-white> |
 
+### Socials
+
+| ID                | Rendered                                                         | Route                                              |
+| ----------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
+| facebook-white             | ![Facebook](https://badgelab.dev/api/badge/facebook-white)                   | <https://badgelab.dev/api/badge/facebook-white>             |
+| linkedin-white            | ![Linkedin](https://badgelab.dev/api/badge/linkedin-white)                 | <https://badgelab.dev/api/badge/linkedin-white>            |
+| instagram-white      | ![Instagram](https://badgelab.dev/api/badge/instagram-white)           | <https://badgelab.dev/api/badge/instagram-white>      |
+| youtube-white       | ![Youtube](https://badgelab.dev/api/badge/youtube-white)       | <https://badgelab.dev/api/badge/youtube-white>       |
+| website-white | ![Website](https://badgelab.dev/api/badge/website-white) | <https://badgelab.dev/api/badge/website-white> |
+| email-white | ![Email](https://badgelab.dev/api/badge/email-white) | <https://badgelab.dev/api/badge/email-white> |
+| behance-white | ![Behance](https://badgelab.dev/api/badge/behance-white) | <https://badgelab.dev/api/badge/behance-white> |
 
 ### Learning Platforms
 
@@ -103,6 +118,7 @@ Badges are defined within each section below and can be accessed with the [badge
 
 
 ### Browsers
+
 | ID            | Rendered                                                 | Route                                          |
 | ------------- | -------------------------------------------------------- | ---------------------------------------------- |
 | firefox       | ![Firefox](https://badgelab.dev/api/badge/firefox)       | <https://badgelab.dev/api/badge/firefox>       |
@@ -122,6 +138,7 @@ Badges are defined within each section below and can be accessed with the [badge
 
 
 ### Systems
+
 | ID            | Rendered                                                 | Route                                          |
 | ------------- | -------------------------------------------------------- | ---------------------------------------------- |
 | debian        | ![Debian](https://badgelab.dev/api/badge/debian)         | <https://badgelab.dev/api/badge/debian>        |
