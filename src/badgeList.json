@@ -232,6 +232,12 @@
             "textColor": "FFFFFF",
             "image": "/icons/white/email.svg"
         },
+        "gmail-white": {
+            "name": "Gmail",
+            "bgColor": "EA4335",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/gmail.svg"
+        },
         "behance-white": {
             "name": "Behance",
             "bgColor": "053EFF",
