@@ -61,7 +61,7 @@ Badges are defined within each section below and can be accessed with the [badge
 | java-white       | ![Java](https://badgelab.dev/api/badge/java-white)             | <https://badgelab.dev/api/badge/java-white>       |
 | markdown         | ![Markdown](https://badgelab.dev/api/badge/markdown)           | <https://badgelab.dev/api/badge/markdown>         |
 | json             | ![JSON](https://badgelab.dev/api/badge/json)                   | <https://badgelab.dev/api/badge/json>             |
-| arduino-white             | ![Arduino](https://badgelab.dev/api/badge/arduino-white)                   | <https://badgelab.dev/api/badge/arduino-white>             |
+| arduino-white          | ![Arduino](https://badgelab.dev/api/badge/arduino-white)                   | <https://badgelab.dev/api/badge/arduino-white>             |
 | c-white             | ![C](https://badgelab.dev/api/badge/c-white)                   | <https://badgelab.dev/api/badge/c-white>             |
 | cpp-white             | ![C++](https://badgelab.dev/api/badge/cpp-white)                   | <https://badgelab.dev/api/badge/cpp-white>             |
 
@@ -84,8 +84,11 @@ Badges are defined within each section below and can be accessed with the [badge
 | instagram-white      | ![Instagram](https://badgelab.dev/api/badge/instagram-white)           | <https://badgelab.dev/api/badge/instagram-white>      |
 | youtube-white       | ![Youtube](https://badgelab.dev/api/badge/youtube-white)       | <https://badgelab.dev/api/badge/youtube-white>       |
 | website-white | ![Website](https://badgelab.dev/api/badge/website-white) | <https://badgelab.dev/api/badge/website-white> |
+| portfolio-white | ![Portfolio](https://badgelab.dev/api/badge/portfolio-white) | <https://badgelab.dev/api/badge/portfolio-white> |
 | email-white | ![Email](https://badgelab.dev/api/badge/email-white) | <https://badgelab.dev/api/badge/email-white> |
 | behance-white | ![Behance](https://badgelab.dev/api/badge/behance-white) | <https://badgelab.dev/api/badge/behance-white> |
+| x-white | ![X](https://badgelab.dev/api/badge/x-white) | <https://badgelab.dev/api/badge/x-white> |
+| twitter-white | ![Twitter](https://badgelab.dev/api/badge/twitter-white) | <https://badgelab.dev/api/badge/twitter-white> |
 
 ### Learning Platforms
 
@@ -116,7 +119,6 @@ Badges are defined within each section below and can be accessed with the [badge
 | vscode       | ![Visual Studio Code](https://badgelab.dev/api/badge/vscode)       | <https://badgelab.dev/api/badge/vscode>       |
 | vscode-white | ![Visual Studio Code](https://badgelab.dev/api/badge/vscode-white) | <https://badgelab.dev/api/badge/vscode-white> |
 
-
 ### Browsers
 
 | ID            | Rendered                                                 | Route                                          |
@@ -136,7 +138,6 @@ Badges are defined within each section below and can be accessed with the [badge
 | tor           | ![Tor](https://badgelab.dev/api/badge/tor)               | <https://badgelab.dev/api/badge/tor>           |
 | tor-white     | ![Tor](https://badgelab.dev/api/badge/tor-white)         | <https://badgelab.dev/api/badge/tor-white>     |
 
-
 ### Systems
 
 | ID            | Rendered                                                 | Route                                          |
@@ -147,4 +148,3 @@ Badges are defined within each section below and can be accessed with the [badge
 | ubuntu-white  | ![Ubuntu](https://badgelab.dev/api/badge/ubuntu-white)   | <https://badgelab.dev/api/badge/ubuntu-white>  |
 | windows       | ![Windows](https://badgelab.dev/api/badge/windows)       | <https://badgelab.dev/api/badge/windows>       |
 | windows-white | ![Windows](https://badgelab.dev/api/badge/windows-white) | <https://badgelab.dev/api/badge/windows-white> |
-

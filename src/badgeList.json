@@ -217,18 +217,37 @@
         "website-white": {
             "name": "My Website",
             "bgColor": "398DDB",
-            "textColor": "FFFFFF"
+            "textColor": "FFFFFF",
+            "image": "/icons/white/web.svg"
+        },
+        "portfolio-white": {
+            "name": "My Portfolio",
+            "bgColor": "398DDB",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/web.svg"
         },
         "email-white": {
             "name": "Email Me",
             "bgColor": "398DDB",
-            "textColor": "FFFFFF"
+            "textColor": "FFFFFF",
+            "image": "/icons/white/email.svg"
         },
         "behance-white": {
             "name": "Behance",
             "bgColor": "053EFF",
             "textColor": "FFFFFF",
             "image": "/icons/white/behance.svg"
+        },
+        "x-white": {
+            "name": "X",
+            "bgColor": "000000",
+            "textColor": "FFFFFF"
+        },
+        "twitter-white": {
+            "name": "Twitter",
+            "bgColor": "1DA1F2",
+            "textColor": "FFFFFF",
+            "image": "/icons/white/twitter.svg"
         }
     },
     "hosting": {
