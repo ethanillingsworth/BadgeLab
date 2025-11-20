@@ -22,6 +22,7 @@ Params:
 | bgColor   | Color of background show on badge            | 000000                        | false    | black   |
 | image     | Display an icon with the badge (must be svg) | <https://sample.com/some.svg> | false    | "null"  |
 | noLogo    | Force logo to not be shown                   | true                          | false    | false   |
+| rounded   | Force badge to be rounded                    | true                          | false    | false   |
 
 ### badge
 
@@ -32,10 +33,11 @@ This route can be used to get predefined badges that live in the `badgeList.json
 
 Params:
 
-| Name   | Description                   | Example    | Required | Default |
-| ------ | ----------------------------- | ---------- | -------- | ------- |
-| :name  | Id of badge you want to fetch | javascript | true     | NA      |
-| noLogo | Force logo to not be shown    | true       | false    | false   |
+| Name    | Description                   | Example    | Required | Default |
+| ------- | ----------------------------- | ---------- | -------- | ------- |
+| :name   | Id of badge you want to fetch | javascript | true     | NA      |
+| noLogo  | Force logo to not be shown    | true       | false    | false   |
+| rounded | Force badge to be rounded     | true       | false    | false   |
 
 ## Predefined Badges
 

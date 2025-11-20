@@ -4,6 +4,7 @@ export async function handler(event, context) {
 
 	let name = path.split("/")[3];
 	const noLogo = params.get("noLogo") || false;
+	const rounded = params.get("rounded") || false
 
 
 	const badgeLookup = await (
@@ -31,7 +32,7 @@ export async function handler(event, context) {
 	}
 
 	const response = await fetch(
-		`${process.env.URL}/api/customBadge?name=${badgeData.name}&textColor=${badgeData.textColor}&bgColor=${badgeData.bgColor}&image=${process.env.URL}${badgeData.image}&noLogo=${noLogo}`
+		`${process.env.URL}/api/customBadge?name=${badgeData.name}&textColor=${badgeData.textColor}&bgColor=${badgeData.bgColor}&image=${process.env.URL}${badgeData.image}&noLogo=${noLogo}&rounded=${rounded}`
 	);
 
 	const data = await response.text();

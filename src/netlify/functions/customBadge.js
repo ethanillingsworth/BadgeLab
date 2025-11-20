@@ -6,6 +6,7 @@ export async function handler(event, context) {
 	const scale = 12;
 	const image = params.get("image") || "null";
 	const noLogo = params.get("noLogo") || false;
+	const rounded = params.get("rounded") || "false"
 
 	const styles = `
 	<style>
@@ -17,7 +18,7 @@ export async function handler(event, context) {
 	let e = `<svg width="${name.length * scale * 0.6 + 20
 		}" height="30" xmlns="http://www.w3.org/2000/svg">
 		${styles}
-		<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="30" />
+		<rect fill="#${bgColor}" x="0" y="0" ${rounded !== "false" ? 'rx="8" ry="8"' : ""} width="100%" height="30" />
 		<text x="10" y="16" font-weight="bold" font-family="monospace" font-size="${scale}" fill="#${textColor}" dominant-baseline="middle" text-anchor="left">
 			${name}
 		</text>
@@ -54,7 +55,7 @@ export async function handler(event, context) {
 		e = `<svg width="${name.length * scale * 0.6 + 40
 			}" height="30" xmlns="http://www.w3.org/2000/svg">
 			${styles}
-			<rect fill="#${bgColor}" x="0" y="0" rx="8" ry="8" width="100%" height="30" />
+			<rect fill="#${bgColor}" x="0" y="0" ${rounded !== "false" ? 'rx="8" ry="8"' : ""} width="100%" height="30" />
 			<g transform="translate(10,7.5) scale(${scaleFactor}) translate(${offsetX},${offsetY})">
 				${innerSvg}
 			</g>
