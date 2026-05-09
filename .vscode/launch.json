@@ -1,10 +1,11 @@
 {
     "configurations": [
-    {
-        "command": "npm run serve",
-        "name": "Serve",
-        "request": "launch",
-        "type": "node-terminal"
-    }
+        {
+            "command": "cd src; uvicorn main:app --reload",
+            "name": "Run Server",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    
     ]
 }
