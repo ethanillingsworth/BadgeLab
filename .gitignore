@@ -5,3 +5,7 @@ public
 
 __pycache__
 src-old
+
+.venv
+.vercel
+.env*.local

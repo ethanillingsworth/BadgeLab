@@ -1,6 +1,7 @@
 {
-    "css.lint.unknownAtRules": "ignore",
-    "svg.preview.background": "transparent",
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "off"
+	"css.lint.unknownAtRules": "ignore",
+	"svg.preview.background": "transparent",
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.typeCheckingMode": "off",
+	"cSpell.words": ["redoc"]
 }

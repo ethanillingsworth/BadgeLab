@@ -1,11 +1,10 @@
 {
-    "configurations": [
-        {
-            "command": "cd src; uvicorn main:app --reload",
-            "name": "Run Server",
-            "request": "launch",
-            "type": "node-terminal"
-        }
-    
-    ]
+	"configurations": [
+		{
+			"command": "uvicorn src.main:app --reload",
+			"name": "Run Server",
+			"request": "launch",
+			"type": "node-terminal"
+		}
+	]
 }

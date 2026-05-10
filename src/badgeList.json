@@ -1,429 +1,460 @@
 {
-    "langs": {
-        "html5": {
-            "name": "HTML5",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/html.svg"
-        },
-        "html5-white": {
-            "name": "HTML5",
-            "bgColor": "#E34C26",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/html.svg"
-        },
-        "css3": {
-            "name": "CSS3",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/css.svg"
-        },
-        "css3-white": {
-            "name": "CSS3",
-            "bgColor": "#2162AF",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/css.svg"
-        },
-        "javascript": {
-            "name": "JavaScript",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/javascript.svg"
-        },
-        "javascript-black": {
-            "name": "JavaScript",
-            "bgColor": "#EFD81D",
-            "textColor": "#000000",
-            "image": "/icons/black/javascript.svg"
-        },
-        "javascript-white": {
-            "name": "JavaScript",
-            "bgColor": "#D4AF37",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/javascript.svg"
-        },
-        "python": {
-            "name": "Python",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/python.svg"
-        },
-        "python-white": {
-            "name": "Python",
-            "bgColor": "#3773A5",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/python.svg"
-        },
-        "python-black": {
-            "name": "Python",
-            "bgColor": "#FDD444",
-            "textColor": "#000000",
-            "image": "/icons/black/python.svg"
-        },
-        "swift": {
-            "name": "Swift",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/swift.svg"
-        },
-        "swift-white": {
-            "name": "Swift",
-            "bgColor": "#F15833",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/swift.svg"
-        },
-        "java": {
-            "name": "Java",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/java.svg"
-        },
-        "java-white": {
-            "name": "Java",
-            "bgColor": "#F8981D",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/java.svg"
-        },
-        "markdown": {
-            "name": "Markdown",
-            "bgColor": "#000000",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/markdown.svg"
-        },
-        "json": {
-            "name": "JSON",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/json.svg"
-        },
-        "arduino-white": {
-            "name": "Arduino",
-            "bgColor": "#00979D",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/arduino.svg"
-        },
-        "c-white": {
-            "name": "C",
-            "bgColor": "#00599C",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/c.svg"
-        },
-        "cpp-white": {
-            "name": "C",
-            "bgColor": "#00599C",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/cpp.svg"
-        }
-    },
-    "frameworks": {
-        "react": {
-            "name": "React",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/react.svg"
-        },
-        "jquery": {
-            "name": "jQuery",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/jquery.svg"
-        },
-        "jquery-white": {
-            "name": "jQuery",
-            "bgColor": "#1C7FCC",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/jquery.svg"
-        },
-        "tailwindcss": {
-            "name": "TailwindCSS",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/tailwind.svg"
-        },
-        "tailwindcss-white": {
-            "name": "TailwindCSS",
-            "bgColor": "#38BDF8",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/tailwind.svg"
-        }
-    },
-    "learning": {
-        "w3schools": {
-            "name": "W3Schools",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF"
-        },
-        "w3schools-white": {
-            "name": "W3Schools",
-            "bgColor": "#4CAF50",
-            "textColor": "#FFFFFF"
-        },
-        "khan-academy": {
-            "name": "Khan Academy",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/khan.svg"
-        },
-        "khan-academy-white": {
-            "name": "Khan Academy",
-            "bgColor": "#14BF96",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/khan.svg"
-        },
-        "codecademy": {
-            "name": "CodeCademy",
-            "bgColor": "#FFFFFF",
-            "textColor": "#000000",
-            "image": "/icons/black/codecademy.svg"
-        },
-        "mdn": {
-            "name": "MDN Web Docs",
-            "bgColor": "#000000",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/mdn.svg"
-        },
-        "geeksforgeeks": {
-            "name": "GeeksForGeeks",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/geeksforgeeks.svg"
-        }
-    },
-    "socials": {
-        "facebook-white": {
-            "name": "Facebook",
-            "bgColor": "#1877F2",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/facebook.svg"
-        },
-        "linkedin-white": {
-            "name": "Linkedin",
-            "bgColor": "#0072B1",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/linkedin.svg"
-        },
-        "instagram-white": {
-            "name": "Instagram",
-            "bgColor": "#C13584",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/instagram.svg"
-        },
-        "youtube-white": {
-            "name": "Youtube",
-            "bgColor": "#FF0000",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/youtube.svg"
-        },
-        "website-white": {
-            "name": "My Website",
-            "bgColor": "#398DDB",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/web.svg"
-        },
-        "portfolio-white": {
-            "name": "My Portfolio",
-            "bgColor": "#398DDB",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/web.svg"
-        },
-        "email-white": {
-            "name": "Email Me",
-            "bgColor": "#398DDB",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/email.svg"
-        },
-        "gmail-white": {
-            "name": "Gmail",
-            "bgColor": "#EA4335",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/gmail.svg"
-        },
-        "behance-white": {
-            "name": "Behance",
-            "bgColor": "#053EFF",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/behance.svg"
-        },
-        "x-white": {
-            "name": "X",
-            "bgColor": "#000000",
-            "textColor": "#FFFFFF"
-        },
-        "twitter-white": {
-            "name": "Twitter",
-            "bgColor": "#1DA1F2",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/twitter.svg"
-        }
-    },
-    "hosting": {
-        "firebase": {
-            "name": "Firebase",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/firebase.svg"
-        },
-        "firebase-black": {
-            "name": "Firebase",
-            "bgColor": "#FFC400",
-            "textColor": "#000000",
-            "image": "/icons/white/firebase.svg"
-        },
-        "netlify": {
-            "name": "Netlify",
-            "bgColor": "#000000",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/netlify.svg"
-        },
-        "github-pages": {
-            "name": "Github Pages",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/github.svg"
-        }
-    },
-    "tools": {
-        "github": {
-            "name": "Github",
-            "bgColor": "#000000",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/github.svg"
-        },
-        "vscode": {
-            "name": "Visual Studio Code",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/vscode.svg"
-        },
-        "vscode-white": {
-            "name": "Visual Studio Code",
-            "bgColor": "#3399FF",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/vscode.svg"
-        }
-    },
-    "browsers": {
-        "firefox": {
-            "name": "Firefox",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/firefox.svg"
-        },
-        "firefox-white": {
-            "name": "Firefox",
-            "bgColor": "#FF7139",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/firefox.svg"
-        },
-        "chrome": {
-            "name": "Chrome",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/chrome.svg"
-        },
-        "chrome-white": {
-            "name": "Chrome",
-            "bgColor": "#4285F4",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/chrome.svg"
-        },
-        "safari": {
-            "name": "Safari",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/safari.svg"
-        },
-        "safari-white": {
-            "name": "Safari",
-            "bgColor": "#0FB5EE",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/safari.svg"
-        },
-        "edge": {
-            "name": "Edge",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/edge.svg"
-        },
-        "edge-white": {
-            "name": "Edge",
-            "bgColor": "#0078D7",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/edge.svg"
-        },
-        "opera": {
-            "name": "Opera",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/opera.svg"
-        },
-        "opera-white": {
-            "name": "Opera",
-            "bgColor": "#FF1B2D",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/opera.svg"
-        },
-        "brave": {
-            "name": "Brave",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/brave.svg"
-        },
-        "brave-white": {
-            "name": "Brave",
-            "bgColor": "#FB542B",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/brave.svg"
-        },
-        "tor": {
-            "name": "Tor Browser",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/tor.svg"
-        },
-        "tor-white": {
-            "name": "Tor Browser",
-            "bgColor": "#7D4698",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/tor.svg"
-        }
-    },
-    "systems": {
-        "debian": {
-            "name": "Debian",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/debian.svg"
-        },
-        "debian-white": {
-            "name": "Debian",
-            "bgColor": "#d70a53",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/debian.svg"
-        },
-        "ubuntu": {
-            "name": "Ubuntu",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/ubuntu.svg"
-        },
-        "ubuntu-white": {
-            "name": "Ubuntu",
-            "bgColor": "#E95420",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/ubuntu.svg"
-        },
-        "windows": {
-            "name": "Windows",
-            "bgColor": "#404040",
-            "textColor": "#FFFFFF",
-            "image": "/icons/color/windows.svg"
-        },
-        "windows-white": {
-            "name": "Windows",
-            "bgColor": "#0078D6",
-            "textColor": "#FFFFFF",
-            "image": "/icons/white/windows.svg"
-        }
-    }
+	"color": {
+		"langs": {
+			"html5": {
+				"name": "HTML5",
+				"bgColor": "#E34C26",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/html.svg"
+			},
+			"css3": {
+				"name": "CSS3",
+				"bgColor": "#2162AF",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/css.svg"
+			},
+			"javascript": {
+				"name": "JavaScript",
+				"bgColor": "#EFD81D",
+				"textColor": "#000000",
+				"image": "/icons/black/javascript.svg"
+			},
+			"python": {
+				"name": "Python",
+				"bgColor": "#3773A5",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/python.svg"
+			},
+			"swift": {
+				"name": "Swift",
+				"bgColor": "#F15833",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/swift.svg"
+			},
+			"java": {
+				"name": "Java",
+				"bgColor": "#D68D2F",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/java.svg"
+			},
+			"markdown": {
+				"name": "Markdown",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/markdown.svg"
+			},
+			"arduino": {
+				"name": "Arduino",
+				"bgColor": "#00979D",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/arduino.svg"
+			},
+			"c": {
+				"name": "C",
+				"bgColor": "#00599C",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/c.svg"
+			},
+			"cpp": {
+				"name": "C",
+				"bgColor": "#00599C",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/cpp.svg"
+			}
+		},
+		"frameworks": {
+			"jquery": {
+				"name": "jQuery",
+				"bgColor": "#1C7FCC",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/jquery.svg"
+			},
+			"tailwindcss": {
+				"name": "TailwindCSS",
+				"bgColor": "#38BDF8",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/tailwind.svg"
+			}
+		},
+		"learning": {
+			"w3schools": {
+				"name": "W3Schools",
+				"bgColor": "#4CAF50",
+				"textColor": "#FFFFFF"
+			},
+			"khan-academy": {
+				"name": "Khan Academy",
+				"bgColor": "#14BF96",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/khan.svg"
+			},
+			"codecademy": {
+				"name": "CodeCademy",
+				"bgColor": "#FFFFFF",
+				"textColor": "#000000",
+				"image": "/icons/black/codecademy.svg"
+			},
+			"mdn": {
+				"name": "MDN Web Docs",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/mdn.svg"
+			}
+		},
+		"socials": {
+			"facebook": {
+				"name": "Facebook",
+				"bgColor": "#1877F2",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/facebook.svg"
+			},
+			"linkedin": {
+				"name": "Linkedin",
+				"bgColor": "#0072B1",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/linkedin.svg"
+			},
+			"instagram": {
+				"name": "Instagram",
+				"bgColor": "#C13584",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/instagram.svg"
+			},
+			"youtube": {
+				"name": "Youtube",
+				"bgColor": "#FF0000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/youtube.svg"
+			},
+			"website": {
+				"name": "My Website",
+				"bgColor": "#398DDB",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/web.svg"
+			},
+			"portfolio": {
+				"name": "My Portfolio",
+				"bgColor": "#398DDB",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/web.svg"
+			},
+			"email": {
+				"name": "Email Me",
+				"bgColor": "#398DDB",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/email.svg"
+			},
+			"gmail": {
+				"name": "Gmail",
+				"bgColor": "#EA4335",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/gmail.svg"
+			},
+			"behance": {
+				"name": "Behance",
+				"bgColor": "#053EFF",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/behance.svg"
+			},
+			"x": {
+				"name": "X",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF"
+			},
+			"twitter": {
+				"name": "Twitter",
+				"bgColor": "#1DA1F2",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/twitter.svg"
+			}
+		},
+		"hosting": {
+			"firebase": {
+				"name": "Firebase",
+				"bgColor": "#FFC400",
+				"textColor": "#000000",
+				"image": "/icons/white/firebase.svg"
+			},
+			"netlify": {
+				"name": "Netlify",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/netlify.svg"
+			},
+			"github-pages": {
+				"name": "Github Pages",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/github.svg"
+			}
+		},
+		"tools": {
+			"github": {
+				"name": "Github",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/github.svg"
+			},
+			"vscode-white": {
+				"name": "Visual Studio Code",
+				"bgColor": "#3399FF",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/vscode.svg"
+			}
+		},
+		"browsers": {
+			"firefox": {
+				"name": "Firefox",
+				"bgColor": "#FF7139",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/firefox.svg"
+			},
+			"chrome": {
+				"name": "Chrome",
+				"bgColor": "#4285F4",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/chrome.svg"
+			},
+			"safari": {
+				"name": "Safari",
+				"bgColor": "#0FB5EE",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/safari.svg"
+			},
+			"edge": {
+				"name": "Edge",
+				"bgColor": "#0078D7",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/edge.svg"
+			},
+			"opera": {
+				"name": "Opera",
+				"bgColor": "#FF1B2D",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/opera.svg"
+			},
+			"brave": {
+				"name": "Brave",
+				"bgColor": "#FB542B",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/brave.svg"
+			},
+			"tor": {
+				"name": "Tor Browser",
+				"bgColor": "#7D4698",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/tor.svg"
+			}
+		},
+		"systems": {
+			"debian": {
+				"name": "Debian",
+				"bgColor": "#d70a53",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/debian.svg"
+			},
+			"ubuntu": {
+				"name": "Ubuntu",
+				"bgColor": "#E95420",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/ubuntu.svg"
+			},
+			"windows": {
+				"name": "Windows",
+				"bgColor": "#0078D6",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/windows.svg"
+			}
+		}
+	},
+	"mono": {
+		"langs": {
+			"html5": {
+				"name": "HTML5",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/html.svg"
+			},
+
+			"css3": {
+				"name": "CSS3",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/css.svg"
+			},
+
+			"javascript": {
+				"name": "JavaScript",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/javascript.svg"
+			},
+
+			"javascript-white": {
+				"name": "JavaScript",
+				"bgColor": "#D4AF37",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/javascript.svg"
+			},
+			"python": {
+				"name": "Python",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/python.svg"
+			},
+
+			"python-black": {
+				"name": "Python",
+				"bgColor": "#FDD444",
+				"textColor": "#000000",
+				"image": "/icons/black/python.svg"
+			},
+			"swift": {
+				"name": "Swift",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/swift.svg"
+			},
+			"swift-white": {
+				"name": "Swift",
+				"bgColor": "#F15833",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/swift.svg"
+			},
+			"java": {
+				"name": "Java",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/java.svg"
+			},
+
+			"json": {
+				"name": "JSON",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/json.svg"
+			}
+		},
+		"frameworks": {
+			"react": {
+				"name": "React",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/react.svg"
+			},
+			"jquery": {
+				"name": "jQuery",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/jquery.svg"
+			},
+			"tailwindcss": {
+				"name": "TailwindCSS",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/tailwind.svg"
+			}
+		},
+		"learning": {
+			"w3schools": {
+				"name": "W3Schools",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF"
+			},
+			"khan-academy": {
+				"name": "Khan Academy",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/khan.svg"
+			},
+
+			"geeksforgeeks": {
+				"name": "GeeksForGeeks",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/geeksforgeeks.svg"
+			}
+		},
+		"socials": {},
+		"hosting": {
+			"firebase": {
+				"name": "Firebase",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/firebase.svg"
+			}
+		},
+		"tools": {
+			"vscode": {
+				"name": "Visual Studio Code",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/vscode.svg"
+			}
+		},
+		"browsers": {
+			"firefox": {
+				"name": "Firefox",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/firefox.svg"
+			},
+			"chrome": {
+				"name": "Chrome",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/chrome.svg"
+			},
+			"safari": {
+				"name": "Safari",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/safari.svg"
+			},
+			"edge": {
+				"name": "Edge",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/edge.svg"
+			},
+			"opera": {
+				"name": "Opera",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/opera.svg"
+			},
+			"brave": {
+				"name": "Brave",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/brave.svg"
+			},
+			"tor": {
+				"name": "Tor Browser",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/tor.svg"
+			}
+		},
+		"systems": {
+			"debian": {
+				"name": "Debian",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/debian.svg"
+			},
+			"ubuntu": {
+				"name": "Ubuntu",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/ubuntu.svg"
+			},
+			"windows": {
+				"name": "Windows",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/windows.svg"
+			}
+		}
+	}
 }
