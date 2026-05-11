@@ -9,10 +9,7 @@ badge_list = {}
 with open("src/badgeList.json", "r") as f:
     badge_list = json.load(f)
 
-class BadgeNotFound(Exception):
-    def __init__(self, message):
-        super().__init__(message)
-        self.message = message
+router = APIRouter(prefix="/api", tags=["badges"])
 
 def deep_get(dictionary, target_key):
     if target_key in dictionary:
@@ -25,24 +22,30 @@ def deep_get(dictionary, target_key):
     
     raise BadgeNotFound(f"Could not find badge with name {target_key}")
 
-router = APIRouter(prefix="/api", tags=["badges"])
-
-from enum import Enum
+class BadgeNotFound(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.message = message
 
 class BadgeName(str, Enum):
-    # Langs
+    # Languages
     HTML5 = "html5"
     CSS3 = "css3"
     JAVASCRIPT = "javascript"
+    JAVASCRIPT_WHITE = "javascript-white"
     PYTHON = "python"
+    PYTHON_BLACK = "python-black"
     SWIFT = "swift"
+    SWIFT_WHITE = "swift-white"
     JAVA = "java"
+    JSON = "json"
     MARKDOWN = "markdown"
     ARDUINO = "arduino"
     C = "c"
     CPP = "cpp"
 
     # Frameworks
+    REACT = "react"
     JQUERY = "jquery"
     TAILWINDCSS = "tailwindcss"
 
@@ -51,6 +54,7 @@ class BadgeName(str, Enum):
     KHAN_ACADEMY = "khan-academy"
     CODECADEMY = "codecademy"
     MDN = "mdn"
+    GEEKSFORGEEKS = "geeksforgeeks"
 
     # Socials
     FACEBOOK = "facebook"
@@ -72,7 +76,7 @@ class BadgeName(str, Enum):
 
     # Tools
     GITHUB = "github"
-    VSCODE_WHITE = "vscode-white"
+    VSCODE = "vscode"
 
     # Browsers
     FIREFOX = "firefox"

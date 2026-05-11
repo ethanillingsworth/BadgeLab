@@ -195,7 +195,7 @@
 				"textColor": "#FFFFFF",
 				"image": "/icons/white/github.svg"
 			},
-			"vscode-white": {
+			"vscode": {
 				"name": "Visual Studio Code",
 				"bgColor": "#3399FF",
 				"textColor": "#FFFFFF",
