@@ -1,18 +1,11 @@
 {
-	"builds": [
-		{
-			"src": "src/main.py",
-			"use": "@vercel/python"
-		}
-	],
-	"routes": [
-		{
-			"src": "src/badge",
-			"dest": "api/badge.py"
-		},
-		{
-			"src": "src/customBadge",
-			"dest": "api/custom_badge.py"
-		}
-	]
+  "builds": [
+    {
+      "src": "src/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "src/main.py" }
+  ]
 }

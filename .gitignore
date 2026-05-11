@@ -1,7 +1,6 @@
 # Local Netlify folder
 .netlify
 node_modules
-public
 
 __pycache__
 src-old
