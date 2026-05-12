@@ -156,11 +156,6 @@
 				"textColor": "#FFFFFF",
 				"image": "/icons/white/behance.svg"
 			},
-			"x": {
-				"name": "X",
-				"bgColor": "#000000",
-				"textColor": "#FFFFFF"
-			},
 			"twitter": {
 				"name": "Twitter",
 				"bgColor": "#1DA1F2",
@@ -268,7 +263,7 @@
 		}
 	},
 	"alt": {
-		"langs":{
+		"langs": {
 			"python": {
 				"name": "Python",
 				"bgColor": "#FDD444",
@@ -323,6 +318,24 @@
 				"bgColor": "#000000",
 				"textColor": "#FFFFFF",
 				"image": "/icons/color/json.svg"
+			},
+			"arduino": {
+				"name": "Arduino",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/arduino.svg"
+			},
+			"c": {
+				"name": "C",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/c.svg"
+			},
+			"cpp": {
+				"name": "C",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/cpp.svg"
 			}
 		},
 		"frameworks": {
@@ -357,6 +370,12 @@
 				"textColor": "#FFFFFF",
 				"image": "/icons/color/khan.svg"
 			},
+			"codecademy": {
+				"name": "CodeCademy",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/codecademy.svg"
+			},
 
 			"geeksforgeeks": {
 				"name": "GeeksForGeeks",
@@ -365,7 +384,73 @@
 				"image": "/icons/color/geeksforgeeks.svg"
 			}
 		},
-		"socials": {},
+		"socials": {
+			"facebook": {
+				"name": "Facebook",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/facebook.svg"
+			},
+			"linkedin": {
+				"name": "Linkedin",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/linkedin.svg"
+			},
+			"instagram": {
+				"name": "Instagram",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/instagram.svg"
+			},
+			"youtube": {
+				"name": "Youtube",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/youtube.svg"
+			},
+			"website": {
+				"name": "My Website",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/web.svg"
+			},
+			"portfolio": {
+				"name": "My Portfolio",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/web.svg"
+			},
+			"email": {
+				"name": "Email Me",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/white/email.svg"
+			},
+			"gmail": {
+				"name": "Gmail",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/gmail.svg"
+			},
+			"behance": {
+				"name": "Behance",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/behance.svg"
+			},
+			"x": {
+				"name": "X",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF"
+			},
+			"twitter": {
+				"name": "Twitter",
+				"bgColor": "#000000",
+				"textColor": "#FFFFFF",
+				"image": "/icons/color/twitter.svg"
+			}
+		},
 		"hosting": {
 			"firebase": {
 				"name": "Firebase",
