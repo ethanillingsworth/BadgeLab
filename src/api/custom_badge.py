@@ -3,8 +3,8 @@ import httpx
 from pathlib import Path
 from typing import Optional
 from pydantic_extra_types.color import Color
-from fastapi import APIRouter, Response, HTTPException
-router = APIRouter(prefix="/api", tags=["badges"])
+from fastapi import APIRouter, Response
+router = APIRouter(prefix="/api", tags=["Badges"])
 
 async def get_image_as_base64(image_source: str) -> Optional[str]:
     """
@@ -57,7 +57,7 @@ async def custom_badge(
     no_logo:    bool            = False,
     rounded:    bool            = False,
 ):
-    # 1. Handle Image Logic
+
     img_data_uri = ""
     if not no_logo and image:
         resolved_img = await get_image_as_base64(image)
@@ -68,7 +68,6 @@ async def custom_badge(
     text_offset = 35 if not no_logo else 10
     svg_width = text_width + text_offset + 10
 
-    # 3. Build Template
     rx = 10 if rounded else 0
     
     logo_tag = f'<image href="{img_data_uri}" x="10" y="7.5" width="15" height="15" />' if not no_logo else ""

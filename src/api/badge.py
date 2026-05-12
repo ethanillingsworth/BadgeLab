@@ -2,15 +2,13 @@ import json
 from pydantic_extra_types import Color
 from src.api.custom_badge import custom_badge
 from fastapi import APIRouter, Path, Query, Response
-from enum import Enum
+from src.api.shared import get_badge_list, BadgeNotFound, BadgeStyle, BadgeName
 
-badge_list = {}
-with open("src/badgeList.json", "r") as f:
-    badge_list = json.load(f)
+router = APIRouter(prefix="/api", tags=["Badges"])
 
-router = APIRouter(prefix="/api", tags=["badges"])
+badge_list = get_badge_list()
 
-def deep_get(target_style, dictionary, target_key, fallback_flag):
+def deep_get(target_style, target_key, fallback_flag):
 
     styles = list(BadgeStyle)
 
@@ -23,89 +21,17 @@ def deep_get(target_style, dictionary, target_key, fallback_flag):
     
     for style in styles:
 
-        style_dict = dictionary[style]
+        style_dict = badge_list[style]
         
         for _, value in style_dict.items():
             for key2, value2 in value.items():
                 if key2 == target_key:
                     return value2
     
-    raise BadgeNotFound(f"Could not find badge with name {target_key} with style {target_style}")
-
-class BadgeNotFound(Exception):
-    def __init__(self, message):
-        super().__init__(message)
-        self.message = message
-
-class BadgeName(str, Enum):
-    # Languages
-    HTML5 = "html5"
-    CSS3 = "css3"
-    JAVASCRIPT = "javascript"
-    PYTHON = "python"
-    SWIFT = "swift"
-    JAVA = "java"
-    JSON = "json"
-    MARKDOWN = "markdown"
-    ARDUINO = "arduino"
-    C = "c"
-    CPP = "cpp"
-
-    # Frameworks
-    REACT = "react"
-    JQUERY = "jquery"
-    TAILWINDCSS = "tailwindcss"
-
-    # Learning
-    W3SCHOOLS = "w3schools"
-    KHAN_ACADEMY = "khan-academy"
-    CODECADEMY = "codecademy"
-    MDN = "mdn"
-    GEEKSFORGEEKS = "geeksforgeeks"
-
-    # Socials
-    FACEBOOK = "facebook"
-    LINKEDIN = "linkedin"
-    INSTAGRAM = "instagram"
-    YOUTUBE = "youtube"
-    WEBSITE = "website"
-    PORTFOLIO = "portfolio"
-    EMAIL = "email"
-    GMAIL = "gmail"
-    BEHANCE = "behance"
-    X = "x"
-    TWITTER = "twitter"
-
-    # Hosting
-    FIREBASE = "firebase"
-    NETLIFY = "netlify"
-    GITHUB_PAGES = "github-pages"
-
-    # Tools
-    GITHUB = "github"
-    VSCODE = "vscode"
-
-    # Browsers
-    FIREFOX = "firefox"
-    CHROME = "chrome"
-    SAFARI = "safari"
-    EDGE = "edge"
-    OPERA = "opera"
-    BRAVE = "brave"
-    TOR = "tor"
-
-    # Systems
-    DEBIAN = "debian"
-    UBUNTU = "ubuntu"
-    WINDOWS = "windows"
-
-class BadgeStyle(str, Enum):
-    COLOR = "color"
-    MONO = "mono"
-    ALT = "alt"
+    raise BadgeNotFound(target_key, target_style)
 
 @router.get(
-    "/badge/{name}", 
+    "/badge/{id}", 
     responses={
         200: {
             "content": {
@@ -138,7 +64,7 @@ class BadgeStyle(str, Enum):
     }
 )
 async def badge(
-        name:       BadgeName   = Path(..., description="Name the badge you want to fetch."),
+        id:       BadgeName   = Path(..., description="ID of the badge you want to fetch."),
         style:      BadgeStyle  = Query(BadgeStyle.COLOR, description="Style for the badge."),
         no_logo:    bool        = Query(False, description="Don't show the logo if one is provided."),
         rounded:    bool        = Query(False, description="Round the corners of the badge."),
@@ -147,7 +73,7 @@ async def badge(
 
 
     try:
-        badge_info = deep_get(style, badge_list, name, fallback)
+        badge_info = deep_get(style, badge_list, id, fallback)
     except BadgeNotFound as e:
         return Response(
             json.dumps(
