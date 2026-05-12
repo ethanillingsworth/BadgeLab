@@ -73,7 +73,7 @@ async def badge(
 
 
     try:
-        badge_info = deep_get(style, badge_list, id, fallback)
+        badge_info = deep_get(style, id, fallback)
     except BadgeNotFound as e:
         return Response(
             json.dumps(
