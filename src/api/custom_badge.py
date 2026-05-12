@@ -65,7 +65,7 @@ async def custom_badge(
             img_data_uri = resolved_img
 
     text_width = len(name) * 9 
-    text_offset = 35 if not no_logo else 15
+    text_offset = 35 if not no_logo else 10
     svg_width = text_width + text_offset + 10
 
     # 3. Build Template
