@@ -63,6 +63,8 @@ async def custom_badge(
         resolved_img = await get_image_as_base64(image)
         if resolved_img:
             img_data_uri = resolved_img
+        else:
+            no_logo = True
 
     text_width = len(name) * 9 
     text_offset = 35 if not no_logo else 10
