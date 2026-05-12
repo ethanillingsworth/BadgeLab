@@ -1,8 +1,7 @@
 import json
 from pydantic_extra_types import Color
 from src.api.custom_badge import custom_badge
-from fastapi import APIRouter, Response
-from pydantic import BaseModel, Field
+from fastapi import APIRouter, Path, Query, Response
 from enum import Enum
 
 badge_list = {}
@@ -11,16 +10,27 @@ with open("src/badgeList.json", "r") as f:
 
 router = APIRouter(prefix="/api", tags=["badges"])
 
-def deep_get(dictionary, target_key):
-    if target_key in dictionary:
-        return dictionary[target_key]
+def deep_get(target_style, dictionary, target_key, fallback_flag):
+
+    styles = list(BadgeStyle)
+
+    if fallback_flag and target_style in styles:
+        styles.remove(target_style) # Removes the first occurrence
+        styles.insert(0, target_style) # Places it at the very start
+    else:
+        styles = [target_style]
     
-    for _, value in dictionary.items():
-        for key2, value2 in value.items():
-            if key2 == target_key:
-                return value2
     
-    raise BadgeNotFound(f"Could not find badge with name {target_key}")
+    for style in styles:
+
+        style_dict = dictionary[style]
+        
+        for _, value in style_dict.items():
+            for key2, value2 in value.items():
+                if key2 == target_key:
+                    return value2
+    
+    raise BadgeNotFound(f"Could not find badge with name {target_key} with style {target_style}")
 
 class BadgeNotFound(Exception):
     def __init__(self, message):
@@ -32,11 +42,8 @@ class BadgeName(str, Enum):
     HTML5 = "html5"
     CSS3 = "css3"
     JAVASCRIPT = "javascript"
-    JAVASCRIPT_WHITE = "javascript-white"
     PYTHON = "python"
-    PYTHON_BLACK = "python-black"
     SWIFT = "swift"
-    SWIFT_WHITE = "swift-white"
     JAVA = "java"
     JSON = "json"
     MARKDOWN = "markdown"
@@ -95,6 +102,7 @@ class BadgeName(str, Enum):
 class BadgeStyle(str, Enum):
     COLOR = "color"
     MONO = "mono"
+    ALT = "alt"
 
 @router.get(
     "/badge/{name}", 
@@ -123,22 +131,23 @@ class BadgeStyle(str, Enum):
                             }
                         }
                     },
-                    "example": {"detail": "Could not find badge with name {name}"}
+                    "example": {"detail": "Could not find badge with name {target_key} with style {target_style}"}
                 }
             },
         }
     }
 )
 async def badge(
-        name:       BadgeName,
-        style:      BadgeStyle  = BadgeStyle.COLOR,
-        no_logo:    bool        = False,
-        rounded:    bool        = False
+        name:       BadgeName   = Path(..., description="Name the badge you want to fetch."),
+        style:      BadgeStyle  = Query(BadgeStyle.COLOR, description="Style for the badge."),
+        no_logo:    bool        = Query(False, description="Don't show the logo if one is provided."),
+        rounded:    bool        = Query(False, description="Round the corners of the badge."),
+        fallback:   bool        = Query(True, description="Fallback to another style if the badge is not available in the given style.")
     ):
 
 
     try:
-        badge_info = deep_get(badge_list[style], name)
+        badge_info = deep_get(style, badge_list, name, fallback)
     except BadgeNotFound as e:
         return Response(
             json.dumps(

@@ -267,6 +267,16 @@
 			}
 		}
 	},
+	"alt": {
+		"langs":{
+			"python": {
+				"name": "Python",
+				"bgColor": "#FDD444",
+				"textColor": "#000000",
+				"image": "/icons/black/python.svg"
+			}
+		}
+	},
 	"mono": {
 		"langs": {
 			"html5": {
@@ -289,37 +299,17 @@
 				"textColor": "#FFFFFF",
 				"image": "/icons/color/javascript.svg"
 			},
-
-			"javascript-white": {
-				"name": "JavaScript",
-				"bgColor": "#D4AF37",
-				"textColor": "#FFFFFF",
-				"image": "/icons/white/javascript.svg"
-			},
 			"python": {
 				"name": "Python",
 				"bgColor": "#000000",
 				"textColor": "#FFFFFF",
 				"image": "/icons/color/python.svg"
 			},
-
-			"python-black": {
-				"name": "Python",
-				"bgColor": "#FDD444",
-				"textColor": "#000000",
-				"image": "/icons/black/python.svg"
-			},
 			"swift": {
 				"name": "Swift",
 				"bgColor": "#000000",
 				"textColor": "#FFFFFF",
 				"image": "/icons/color/swift.svg"
-			},
-			"swift-white": {
-				"name": "Swift",
-				"bgColor": "#F15833",
-				"textColor": "#FFFFFF",
-				"image": "/icons/white/swift.svg"
 			},
 			"java": {
 				"name": "Java",
