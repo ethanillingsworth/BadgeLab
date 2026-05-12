@@ -78,8 +78,9 @@ async def custom_badge(
         <rect width="100%" height="100%" fill="{bg_color.as_hex()}" rx="{rx}" ry="{rx}" />
         {logo_tag}
         <text x="{text_offset}" y="50%" 
-            font-family="Courier New, monospace" 
+            font-family="'Courier New', monospace" 
             font-size="15" 
+            font-weight="700"
             fill="{text_color.as_hex()}" 
             dominant-baseline="middle">
                 {name}
@@ -89,7 +90,7 @@ async def custom_badge(
     return Response(
         content=svg_template,
         media_type="image/svg+xml",
-        headers={
-            "Cache-Control": "public, max-age=3600"
-        }
+        # headers={
+        #     "Cache-Control": "public, max-age=3600"
+        # }
     )
