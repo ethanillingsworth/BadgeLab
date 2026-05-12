@@ -90,7 +90,7 @@ async def custom_badge(
     return Response(
         content=svg_template,
         media_type="image/svg+xml",
-        # headers={
-        #     "Cache-Control": "public, max-age=3600"
-        # }
+        headers={
+            "Cache-Control": "public, max-age=3600"
+        }
     )
